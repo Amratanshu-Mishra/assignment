@@ -31,7 +31,7 @@ export default function Api() {
         
         return(
 
-          <div className="card">
+          <div key={i} className="card">
             <a href={u.product_url}>
           <Image src={u.plpimaage} width={'200'} height={'200'} alt='Product image' ></Image>
           </a>
